@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="w-full h-screen bg-slate-50 dark:bg-zinc-900">
+      <div
+        class="bg-purple-600 dark:bg-zinc-800 h-16 flex items-center justify-end px-4"
+      >
+        <label class="relative cursor-pointer">
+          <input id="switch-button" type="checkbox" class="sr-only peer" />
+          <div
+            class="w-12 h-6 bg-purple-400 rounded-full peer peer-checked:after:translate-x-full after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"
+          ></div>
+      </div>
+      <div class="m-4">
+        <h1 class="text-lg text-zinc-700 font-medium dark:text-slate-50">
+          Página Inicial
+        </h1>
+      </div>
+    </div>
+  </body>
+  
+  <script src="./app.js"></script>
+</html>
